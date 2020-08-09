@@ -83,9 +83,13 @@
     margin-left: 0.8rem;
 }
 
-@media (max-width:699px){ /*Se for maior vai pegar o valor do arquivo main.css*/
+@media (max-width:1100px){ /*Se for maior vai pegar o valor do arquivo main.css*/
     :root {
         font-size: 40%;
+    }
+
+    .hero-img {
+        height: 45rem;
     }
 }
 
